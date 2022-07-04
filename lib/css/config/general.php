@@ -1,6 +1,6 @@
 <?php
 	echo $_s->build_css(
-		'.wp-block-post-excerpt',
+		'.wp-block-post-excerpt .wp-block-post-excerpt__excerpt',
 		array_merge(
 			$module->get_setting('font')->get_css_data('font-family'),
 			$module->get_setting('font_size')->get_css_data('font-size','','px'),
